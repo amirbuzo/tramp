@@ -28,7 +28,7 @@ From the translate module:
 
 # Credits
 
- - Dylan Greene (dylang)
+ - Developer: Dylan Greene (https://github.com/dylang)
  - Translate Node module: https://github.com/Marak/translate.js
  - Google Translate
 
