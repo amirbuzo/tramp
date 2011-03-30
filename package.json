@@ -1,14 +1,14 @@
 {
     "name": "tramp",
-    "version": "0.1",
+    "version": "0.1.0",
     "homepage": "http://github.com/opower/tramp",
     "author": {
         "name": "Dylan Greene",
         "url": "http://github.com/dylang"
     },
-    "main": "./lib/tramp.js",
+    "main": "index.js",
     "bin": {
-        "tramp" : "./bin/tramp"
+        "tramp" : "./tramp"
     },
     "dependencies": {
         "cli": ">= 0.2.8",
@@ -18,6 +18,6 @@
         "type" : "git",
         "url" : "http://github.com/opower/tramp.git"
     },
-    "description": "TRAnslate Message Properties using Google Translate",
+    "description": "Translate Message Properties using Google Translate",
     "keywords": ["translate", "message properties", "translation", "google", "google translate"]
 }
