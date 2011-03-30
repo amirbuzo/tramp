@@ -12,13 +12,32 @@ A command line script for quick and dirty translations using Google Translate.
 
     npm install tramp
 
-# Usage
+# Command Line Usage
 
     tramp [--input Language] [--output Language] < message.properties
 
-## Example
+## Examples
 
     tramp --output Spanish < messages.properties > messages_sp.properties
+
+    tramp --input Spanish --output Hebrew < messages.properties
+
+# Module Usage
+
+    Tramp.translate(options, data, callback);
+
+## Examples
+
+    var Tramp = require('tramp');
+
+    Tramp.translate({input: 'English', output: 'French'}, { property: 'global.signin.password', message: 'Password' }, callback);
+    
+    function callback(err, translated_message) {
+        if (!err) {
+            console.log(translated_message);
+        }   
+    }
+
 
 # Languages
 
